@@ -1,4 +1,4 @@
-# PHASE 1 - Hand-written baseline pipeline (no AI).
+# PHASE 1 - Baseline CI pipeline (IA-II): install, test, build image. No optimizations.
 name: CI Basic
 
 on:
