@@ -2,7 +2,7 @@
 
 Flask app with two GitHub Actions pipelines, built for DevOps Lab Task 1.
 
-- **Phase 1 (no AI):** .github/workflows/ci-basic.yml - hand-written: install, test, docker build.
+- **Phase 1 (IA-II baseline):** .github/workflows/ci-basic.yml - install, test, docker build (no optimizations).
 - **Phase 2 (AI-optimized):** .github/workflows/ci-cd.yml - lint (flake8), security scan (bandit), matrix tests (py3.10-3.12), 80% coverage gate, pip and Docker caching, image push to GHCR, staging deploy with smoke test.
 
 ## Run locally
